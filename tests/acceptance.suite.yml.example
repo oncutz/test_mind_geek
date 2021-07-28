@@ -1,0 +1,10 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://34.133.194.233/index.php?r=
+            browser: firefox
+        - Yii2:
+            part: orm
+            entryScript: index.php
+            cleanup: false
