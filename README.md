@@ -38,6 +38,7 @@ REQUIREMENTS
 ------------
 
 The minimum requirement by this project template that your Web server supports PHP 5.6.0.
+The project was created using Apache2.4
 
 
 INSTALLATION
@@ -109,6 +110,7 @@ CONFIGURATION
 -------------
 
 ### Database
+Install Mysql Server 5.7
 Run the commands in dump.sql
 
 
