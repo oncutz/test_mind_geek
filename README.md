@@ -109,8 +109,9 @@ CONFIGURATION
 -------------
 
 ### Database
+Run the commands in table_creation.sql
 
-Edit the file `config/db.php` with real data, for example:
+Edit the file `config/db.php` with real data:
 
 ```php
 return [
