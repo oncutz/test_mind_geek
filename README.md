@@ -109,19 +109,8 @@ CONFIGURATION
 -------------
 
 ### Database
-Run the commands in table_creation.sql
+Run the commands in dump.sql
 
-Edit the file `config/db.php` with real data:
-
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
-```
 
 **NOTES:**
 - Yii won't create the database for you, this has to be done manually before you can access it.
